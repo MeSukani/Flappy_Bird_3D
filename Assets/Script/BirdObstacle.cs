@@ -12,23 +12,26 @@ public class BirdObstacle : MonoBehaviour
 
     void Update()
     {
-        sendTimer -= Time.deltaTime;
-        if (sendTimer <= 0 )
+        if (GameStateManager.Instance.isGameStarted == true)
         {
-            position = Random.Range(11f, 18f);
-            transform.position = new Vector3(-3, position, -25f);
-            Instantiate(myObstacle, transform.position,transform.rotation);
-            sendTimer = frequency;
-        }
-        
-        if (mainCharacter !=null) 
-        {
-            Time.timeScale = 1;
-        }
+            sendTimer -= Time.deltaTime;
+            if (sendTimer <= 0)
+            {
+                position = Random.Range(11f, 18f);
+                transform.position = new Vector3(-3, position, -25f);
+                Instantiate(myObstacle, transform.position, transform.rotation);
+                sendTimer = frequency;
+            }
 
-        else
-        {
-            Time.timeScale = 0;
+            if (mainCharacter != null)
+            {
+                Time.timeScale = 1;
+            }
+
+            else
+            {
+                Time.timeScale = 0;
+            }
         }
     }
 }

@@ -5,17 +5,25 @@ using UnityEngine;
 public class BirdMovment1 : MonoBehaviour
 {
     public float life = 50;
+    
 
     void Update()
     {
-        life -= Time.deltaTime;
-        if (life <= 0 )
+        if (GameStateManager.Instance.isGameStarted == true)
         {
-            Destroy(gameObject);
+            life -= Time.deltaTime;
+            if (life <= 0)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                transform.Translate(0, 0, 2 * Time.deltaTime);
+            }
         }
         else
         {
-            transform.Translate(0,0,2*Time.deltaTime);
+            Time.timeScale = 0;
         }
     }
 }

@@ -79,7 +79,7 @@ This project is open-source under the **MIT License**.
 
 
 ---
-##Gameplay Screenshot**:
+## Gameplay Screenshot:
 ![3](https://github.com/user-attachments/assets/77bed68f-b8c4-44d8-8aca-1be9b2de7470)
 ![2](https://github.com/user-attachments/assets/e8a46589-73ea-4088-a33f-dc9f1495c566)
 ![1](https://github.com/user-attachments/assets/385e4fec-380e-4082-a5a6-4cec13e69469)

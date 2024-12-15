@@ -1,6 +1,6 @@
 # Flappy Bird 3D
 
-A simple 3D remake of the classic Flappy Bird game, built in Unity. Navigate a flying monster through pipes to score points while enjoying a basic 3D environment.
+A simple 3D remake of the classic Flappy Bird game, built in Unity. Navigate a flying bird through pipes to score points while enjoying in a 3D environment instead of classic 2D.
 
 ---
 
@@ -16,7 +16,7 @@ A simple 3D remake of the classic Flappy Bird game, built in Unity. Navigate a f
 
 - **3D Environment**: Includes decorative elements like trees, fences, and stones to enhance the visuals.
 - **Scoring System**: Gain points for every successful pass through a pipe.
-- **Basic Sound Effects**: Adds an extra layer of fun to the game.
+- **Sound Effects**: Adds an extra layer of fun to the game.
 - **Android Build**: Play the game on your mobile device.
 
 ---
@@ -64,18 +64,11 @@ The following free assets were used to build the game:
 
 ## Future Plans
 
-This project was created for learning purposes, but potential improvements could include:
+This project was developed for the **Audio/Video Processing and 3D Animation course** at **Technische Hochschule Ingolstadt**. Potential areas for improvement include:
 
 - Adding new obstacles or challenges.
 - Enhancing the visuals and environment.
 - Expanding gameplay features.
-
----
-
-## License
-
-This project is open-source under the **MIT License**.
-[MIT](https://choosealicense.com/licenses/mit/)
 
 
 ---
@@ -94,5 +87,11 @@ This project is open-source under the **MIT License**.
 
 
 ---
+
+## License
+
+This project is open-source under the **MIT License**.
+[MIT](https://choosealicense.com/licenses/mit/)
+
 
 

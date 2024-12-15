@@ -14,7 +14,7 @@ public class BirdEnvironment : MonoBehaviour
         sendTimer -= Time.deltaTime;
         if (sendTimer <= 0)
         {
-            Instantiate(floor,new Vector3(0,0, -97f),transform.rotation);
+            Instantiate(floor,new Vector3(0,0, -115f),transform.rotation);
             sendTimer = frequency;
         }
     }

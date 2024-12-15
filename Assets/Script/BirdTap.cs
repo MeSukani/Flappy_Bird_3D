@@ -30,7 +30,7 @@ public class BirdTap : MonoBehaviour
                 if (touch.phase == TouchPhase.Began) // When finger first touches the screen
                 {
                     Instantiate(soundBounce, transform.position, transform.rotation);
-                    ySpeed = 0.50f;
+                    ySpeed = .5f;
 
                     if (animator != null)
                     {
@@ -52,7 +52,7 @@ public class BirdTap : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Instantiate(soundBounce, transform.position, transform.rotation);
-            ySpeed = 0.50f;
+            ySpeed = 0.5f;
             
             if (animator != null)
             {

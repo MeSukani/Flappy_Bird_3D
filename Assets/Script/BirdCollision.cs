@@ -8,6 +8,9 @@ public class BirdCollision : MonoBehaviour
     public TMP_Text scoreText;
     public int score;
     public bool objectNameSt;
+    public AudioSource SFXSource;
+    public AudioClip checkpoint;
+    public AudioClip death;
 
     public void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag != null)
@@ -19,14 +22,18 @@ public class BirdCollision : MonoBehaviour
                 //Debug.Log("Collided");
                 if (!GameStateManager.Instance.isGameOver)
                 {
+                    SFXSource.clip = death;
+                    SFXSource.Play();
                     GameStateManager.Instance.GameOver();
                 }
             }
 
             else if (other.gameObject.tag == "Checkpoint")
             {
+                SFXSource.clip = checkpoint;
+                SFXSource.Play();
                 score += 1;
-                //scoreText.text = score.ToString();
+                scoreText.text = score.ToString();
             }
         }
     }

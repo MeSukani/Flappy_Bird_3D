@@ -5,6 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+[SerializeField] AudioSource musicSource;
+public AudioClip background;
+
+    private void Start() 
+    {
+          musicSource.clip = background;
+          musicSource.Play();  
+    }
+
     public void PlayGame()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);        
@@ -25,5 +34,9 @@ public class MainMenu : MonoBehaviour
             GameStateManager.Instance.gameRestartScreen.SetActive(false);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+    }
+    public void quitGame()
+    {
+        Application.Quit();
     }
 }

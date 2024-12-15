@@ -17,8 +17,8 @@ public class BirdObstacle : MonoBehaviour
             sendTimer -= Time.deltaTime;
             if (sendTimer <= 0)
             {
-                position = Random.Range(11f, 18f);
-                transform.position = new Vector3(-3, position, -25f);
+                position = Random.Range(-1f, 5f);
+                transform.position = new Vector3(0, position, -23.5f);
                 Instantiate(myObstacle, transform.position, transform.rotation);
                 sendTimer = frequency;
             }

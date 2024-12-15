@@ -80,9 +80,9 @@ This project is open-source under the **MIT License**.
 
 ---
 
-## Demo
+## Game Trailer
 
-Insert gif or link to demo
+**Video link**:
 
 
 ---

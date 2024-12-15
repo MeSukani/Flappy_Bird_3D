@@ -47,8 +47,8 @@ The following free assets were used to build the game:
 
 - **Bird Object**: [Ultimate Monsters Pack](https://quaternius.com/packs/ultimatemonsters.html) by Quaternius.
 - **Environment Elements** (pipes, fence, stones, and trees): [Modular Platformer Pack](https://quaternius.com/packs/modularplatformer.html) by Quaternius.
-- **Audio**: [Chicken Run - Background Music](https://opengameart.org/content/chicken-run-background-music) by "TeFox". (Беловолов Евгений).
-- **Audio**: [RPG Audio](https://kenney.nl/assets/rpg-audio) for BG & [Digital Audio](https://kenney.nl/assets/digital-audio) for collision and checkpoint] by Kenney
+- **Audio**: [Chicken Run - Background Music](https://opengameart.org/content/chicken-run-background-music) for BG by "TeFox" (Беловолов Евгений), [RPG Audio](https://kenney.nl/assets/rpg-audio) for bird winging sound & [Digital Audio](https://kenney.nl/assets/digital-audio) for collision and checkpoint sound] by Kenney.
+
 "Thanks to Quaternius and Kenney for providing the free Assets used in this game"
 
 

@@ -7,7 +7,9 @@ public class BirdTap : MonoBehaviour
     public float ySpeed;
     public float yTarget;
     public GameObject soundBounce;
-    
+    public AudioSource birdTapAudioSource;
+    public AudioClip birdTap;
+
     private Animator animator;
     
     private void Start()
@@ -48,10 +50,12 @@ public class BirdTap : MonoBehaviour
             }
         }
 
-     #if UNITY_EDITOR
-        if (Input.GetMouseButtonDown(0))
+#if UNITY_EDITOR
+        if (Input.GetMouseButtonDown(0) && GameStateManager.Instance.isGameStarted == true)
         {
             Instantiate(soundBounce, transform.position, transform.rotation);
+            birdTapAudioSource.clip = birdTap;
+            birdTapAudioSource.Play();
             ySpeed = 0.5f;
             
             if (animator != null)
@@ -66,6 +70,7 @@ public class BirdTap : MonoBehaviour
                 animator.SetBool("Fly", false);
             }
         }
-        #endif
-    
-    }}
+#endif
+
+    }
+}

@@ -11,6 +11,8 @@ public class GameStateManager : MonoBehaviour
     public GameObject gameOverScreen;
     public GameObject gameRestartScreen;
     private Animator animator;
+    public GameObject gameScoreScreen;
+    public GameObject gameScore;
 
     private void Awake()
     {
@@ -52,6 +54,8 @@ public class GameStateManager : MonoBehaviour
 
         if (isGameOver == true)
         {
+            gameScoreScreen.SetActive(true);
+            gameScore.transform.position = new Vector3((gameScoreScreen.transform.position.x), (gameScoreScreen.transform.position.y - 250), 0);                        
             gameOverScreen.SetActive(true);
             gameRestartScreen.SetActive(true);
             Time.timeScale = 0;

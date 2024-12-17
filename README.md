@@ -57,7 +57,7 @@ The following free assets were used to build the game:
 ## Contributors
 
 - **[@Meetkumar Sukani](https://github.com/MeSukani)**: Developed the core game functionality and designed the environment.
-- **[@Nallammai Raman](https://github.com/NallammaiRaman)**: Implemented the collision mechanics and navigation.
+- **[@Nallammai Raman](https://github.com/NallammaiRaman)**: Implemented the collision mechanics, interaction design (user navigation), added sound effects.
 - **[@Deepak Jangir](https://github.com/djangir121)**: Added sound effects and built the Android version.
 
 ---

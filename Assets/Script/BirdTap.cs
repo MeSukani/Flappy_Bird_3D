@@ -32,6 +32,8 @@ public class BirdTap : MonoBehaviour
                 if (touch.phase == TouchPhase.Began) // When finger first touches the screen
                 {
                     Instantiate(soundBounce, transform.position, transform.rotation);
+                    birdTapAudioSource.clip = birdTap;
+                    birdTapAudioSource.Play();
                     ySpeed = .5f;
 
                     if (animator != null)

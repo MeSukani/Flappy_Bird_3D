@@ -83,7 +83,7 @@ This project was developed for the **Audio/Video Processing and 3D Animation cou
 
 ## Game Trailer
 
-**Video link**:
+**Video link**: https://drive.google.com/file/d/1XO4IOmYesHJsHgtK8gbv-2W1VW9H0m3j/view?usp=sharing
 
 
 ---
